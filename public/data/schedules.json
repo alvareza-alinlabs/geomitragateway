@@ -1,0 +1,99 @@
+[
+  {
+    "id": "SCH001",
+    "nama": "Budi Santoso",
+    "email_pic": "budi.santoso@teknologi.com",
+    "perusahaan": "PT Teknologi Maju",
+    "telepon": "081234567890",
+    "email_kantor": "budi@teknologi.com",
+    "sektor_industri": "Teknologi",
+    "skala_perusahaan": "51-200",
+    "alamat_perusahaan": "Jl. Jendral Sudirman Kav. 51-52, Jakarta Selatan",
+    "link_maps": "https://maps.google.com/?q=-6.2238472,106.8122",
+    "koordinat_maps": {
+      "lat": -6.2238472,
+      "lng": 106.8122
+    },
+    "waktu": "2026-05-23T10:00",
+    "tujuan": "Diskusi pengadaan unit PC untuk kantor baru.",
+    "produk": [
+      "P001",
+      "P004"
+    ],
+    "tipe_jadwal": "pengajuan",
+    "status": "pending",
+    "diajukan_oleh": "S001"
+  },
+  {
+    "id": "SCH002",
+    "nama": "Citra Lestari",
+    "email_pic": "citra@solusidigital.com",
+    "perusahaan": "CV Solusi Digital",
+    "telepon": "081298765432",
+    "email_kantor": "admin@solusidigital.com",
+    "sektor_industri": "Pendidikan",
+    "skala_perusahaan": "1-50",
+    "alamat_perusahaan": "Jl. Kaliurang KM 5, Yogyakarta",
+    "link_maps": "https://maps.google.com/?q=-7.7612,110.3804",
+    "koordinat_maps": {
+      "lat": -7.7612,
+      "lng": 110.3804
+    },
+    "waktu": "2026-05-24T14:00",
+    "tujuan": "Meeting kemitraan distribusi Poly Studio.",
+    "produk": [
+      "P002"
+    ],
+    "tipe_jadwal": "pribadi",
+    "status": "approved",
+    "diajukan_oleh": "Admin"
+  },
+  {
+    "id": "SCH003",
+    "nama": "Andi Pratama",
+    "email_pic": "andi.pratama@nusantaratech.id",
+    "perusahaan": "Nusantara Tech",
+    "telepon": "081345678910",
+    "email_kantor": "andi@nusantaratech.id",
+    "sektor_industri": "Keuangan",
+    "skala_perusahaan": "201-500",
+    "alamat_perusahaan": "Gedung Bursa Efek Indonesia, SCBD, Jakarta Pusat",
+    "link_maps": "https://maps.google.com/?q=-6.2255,106.8087",
+    "koordinat_maps": {
+      "lat": -6.2255,
+      "lng": 106.8087
+    },
+    "waktu": "2026-05-25T11:00",
+    "tujuan": "Review target kuartal dan supply printer.",
+    "produk": [
+      "P003"
+    ],
+    "tipe_jadwal": "pengajuan",
+    "status": "approved",
+    "diajukan_oleh": "S002"
+  },
+  {
+    "id": "SCH004",
+    "nama": "Pak Yohanes",
+    "email_pic": "yohanes.hp@internalhp.com",
+    "perusahaan": "Internal HP",
+    "telepon": "08111222333",
+    "email_kantor": "yohanes@internalhp.com",
+    "sektor_industri": "Teknologi",
+    "skala_perusahaan": "500+",
+    "alamat_perusahaan": "Pakuwon Tower, Surabaya",
+    "link_maps": "https://maps.google.com/?q=-7.2756,112.7937",
+    "koordinat_maps": {
+      "lat": -7.2756,
+      "lng": 112.7937
+    },
+    "waktu": "2026-05-26T09:00",
+    "tujuan": "Koordinasi bulanan Q2.",
+    "produk": [
+      "P001"
+    ],
+    "tipe_jadwal": "pribadi",
+    "status": "approved",
+    "diajukan_oleh": "Admin"
+  }
+]

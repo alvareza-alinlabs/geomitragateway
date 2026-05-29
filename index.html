@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/gambar/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content" />
+    <title>Geo Mitra Gateway - Ekosistem IT & Solusi Terpadu</title>
+    
+    <meta name="description" content="Geo Mitra Gateway adalah pusat jaringan kemitraan eksekutif dan solusi IT. Dapatkan akses ke produk unggulan, layanan profesional, dan peluang bisnis tanpa batas." />
+    <meta name="keywords" content="IT, keamanan, CCTV, jaringan, kemitraan, teknologi, distributor, gateway, geomitragateway, Geo Mitra Gateway" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://geomitragateway.com/" />
+    <meta property="og:title" content="Geo Mitra Gateway - Ekosistem IT & Solusi Terpadu" />
+    <meta property="og:description" content="Geo Mitra Gateway adalah pusat jaringan kemitraan eksekutif dan solusi IT. Dapatkan akses ke produk unggulan, layanan profesional, dan peluang bisnis tanpa batas." />
+    <meta property="og:image" content="/gambar/metatag.webp" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://geomitragateway.com/" />
+    <meta name="twitter:title" content="Geo Mitra Gateway - Ekosistem IT & Solusi Terpadu" />
+    <meta name="twitter:description" content="Geo Mitra Gateway adalah pusat jaringan kemitraan eksekutif dan solusi IT. Dapatkan akses ke produk unggulan, layanan profesional, dan peluang bisnis tanpa batas." />
+    <meta name="twitter:image" content="/gambar/metatag.webp" />
+    
+    <meta name="theme-color" content="#153756" />
+    <link rel="apple-touch-icon" href="/gambar/icon-dashboard-white.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <script>
+      (function() {
+        var theme = localStorage.getItem('theme') || 'dark';
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(error => {
+             console.warn('SW registration failed:', error);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

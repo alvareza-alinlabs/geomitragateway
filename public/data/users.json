@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nama": "Harry Gultom",
+    "email": "halo.alvareza@gmail.com",
+    "kata_sandi": "user123",
+    "hak_akses": {
+      "ringkasan": "Super Admin",
+      "peta": "Super Admin",
+      "mitra": "Super Admin",
+      "penjualan": "Super Admin",
+      "transaksi": "Super Admin",
+      "produk": "Super Admin",
+      "jadwal": "Super Admin",
+      "akses": "Super Admin"
+    }
+  },
+  {
+    "id": 2,
+    "nama": "Siska Saraswati",
+    "email": "siska@gmgconsole.id",
+    "kata_sandi": "adminpassword",
+    "hak_akses": {
+      "ringkasan": "Admin",
+      "peta": "Admin",
+      "mitra": "Admin",
+      "penjualan": "Admin",
+      "transaksi": "Admin",
+      "produk": "Admin",
+      "jadwal": "Admin",
+      "akses": "None"
+    }
+  },
+  {
+    "id": 3,
+    "nama": "Agus Subarjo",
+    "email": "agus@gmgconsole.id",
+    "kata_sandi": "viewerpass",
+    "hak_akses": {
+      "ringkasan": "Viewer",
+      "peta": "Viewer",
+      "mitra": "None",
+      "penjualan": "None",
+      "transaksi": "None",
+      "produk": "Viewer",
+      "jadwal": "None",
+      "akses": "None"
+    }
+  }
+]

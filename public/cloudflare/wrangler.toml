@@ -1,0 +1,8 @@
+name = "server"
+main = "worker.js"
+compatibility_date = "2024-05-26"
+
+[[d1_databases]]
+binding = "D1"
+database_name = "gmg-verifikasi-db"
+database_id = "814f52bd-4d06-4366-826f-cdece168d320"

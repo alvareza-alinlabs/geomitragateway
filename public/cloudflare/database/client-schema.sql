@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS clients (
+  id VARCHAR(50) PRIMARY KEY,
+  tipe VARCHAR(20) NOT NULL,
+  perusahaan VARCHAR(255),
+  jenis_perusahaan VARCHAR(100),
+  provinsi VARCHAR(100),
+  kota VARCHAR(100),
+  area VARCHAR(100),
+  alamat_detail TEXT,
+  garis_lintang DECIMAL(10, 8),
+  garis_bujur DECIMAL(11, 8),
+  telepon_kantor VARCHAR(20),
+  email_kantor VARCHAR(100),
+  nama_penanggung_jawab VARCHAR(255),
+  id_penjual VARCHAR(50),
+  nama_penjual VARCHAR(255),
+  jabatan VARCHAR(100),
+  no_hp VARCHAR(20),
+  catatan TEXT,
+  status_kemitraan VARCHAR(50),
+  value_kompetitor DECIMAL(15, 2),
+  list_produk_kompetitor JSON
+);

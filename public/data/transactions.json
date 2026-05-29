@@ -1,0 +1,157 @@
+[
+  {
+    "id": "TRX-001",
+    "tanggal": "2026-01-15",
+    "id_mitra": "S001",
+    "barang": [
+      {
+        "id_produk": "P001",
+        "jumlah_unit": 7,
+        "harga_total": 175000000
+      }
+    ],
+    "total_harga": 175000000,
+    "status": "Selesai",
+    "jenis_pembelian": "Full Payment"
+  },
+  {
+    "id": "TRX-002",
+    "tanggal": "2026-01-20",
+    "id_mitra": "D001",
+    "barang": [
+      {
+        "id_produk": "P002",
+        "jumlah_unit": 2,
+        "harga_total": 90000000
+      }
+    ],
+    "total_harga": 90000000,
+    "status": "Selesai",
+    "jenis_pembelian": "Sewa"
+  },
+  {
+    "id": "TRX-003",
+    "tanggal": "2026-02-10",
+    "id_mitra": "S001",
+    "barang": [
+      {
+        "id_produk": "P003",
+        "jumlah_unit": 3,
+        "harga_total": 16500000
+      }
+    ],
+    "total_harga": 16500000,
+    "status": "Selesai",
+    "jenis_pembelian": "Full Payment"
+  },
+  {
+    "id": "TRX-004",
+    "tanggal": "2026-02-25",
+    "id_mitra": "E001",
+    "barang": [
+      {
+        "id_produk": "P006",
+        "jumlah_unit": 2,
+        "harga_total": 64000000
+      }
+    ],
+    "total_harga": 64000000,
+    "status": "Proses",
+    "jenis_pembelian": "Termin"
+  },
+  {
+    "id": "TRX-005",
+    "tanggal": "2026-03-05",
+    "id_mitra": "E002",
+    "barang": [
+      {
+        "id_produk": "P004",
+        "jumlah_unit": 1,
+        "harga_total": 12000000
+      }
+    ],
+    "total_harga": 12000000,
+    "status": "Selesai",
+    "jenis_pembelian": "Full Payment"
+  },
+  {
+    "id": "TRX-006",
+    "tanggal": "2026-03-21",
+    "id_mitra": "S002",
+    "barang": [
+      {
+        "id_produk": "P005",
+        "jumlah_unit": 15,
+        "harga_total": 52500000
+      }
+    ],
+    "total_harga": 52500000,
+    "status": "Selesai",
+    "jenis_pembelian": "Trial"
+  },
+  {
+    "id": "TRX-007",
+    "tanggal": "2026-04-12",
+    "id_mitra": "D001",
+    "barang": [
+      {
+        "id_produk": "P001",
+        "jumlah_unit": 4,
+        "harga_total": 100000000
+      }
+    ],
+    "total_harga": 100000000,
+    "status": "Selesai",
+    "jenis_pembelian": "Sewa"
+  },
+  {
+    "id": "TRX-008",
+    "tanggal": "2026-04-28",
+    "id_mitra": "E002",
+    "barang": [
+      {
+        "id_produk": "P002",
+        "jumlah_unit": 5,
+        "harga_total": 225000000
+      }
+    ],
+    "total_harga": 225000000,
+    "status": "Selesai",
+    "jenis_pembelian": "Full Payment"
+  },
+  {
+    "id": "TRX-009",
+    "tanggal": "2026-05-18",
+    "id_mitra": "S001",
+    "barang": [
+      {
+        "id_produk": "P001",
+        "jumlah_unit": 2,
+        "harga_total": 50000000
+      },
+      {
+        "id_produk": "P003",
+        "jumlah_unit": 1,
+        "harga_total": 5500000
+      }
+    ],
+    "total_harga": 55500000,
+    "status": "Selesai",
+    "jenis_pembelian": "Full Payment"
+  },
+  {
+    "id": "TRX-010",
+    "tanggal": "2026-05-22",
+    "id_mitra": "S002",
+    "barang": [
+      {
+        "id_produk": "P005",
+        "jumlah_unit": 20,
+        "harga_total": 70000000
+      }
+    ],
+    "total_harga": 70000000,
+    "status": "Selesai",
+    "jenis_pembelian": "Trial"
+  }
+]

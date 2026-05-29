@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/gambar/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content" />
+    <title>AlinLabs Invoice</title>
+    
+    <meta name="description" content="AlinLabs Invoice - Rincian Biaya dan Pembayaran" />
+    <meta name="keywords" content="invoice, rincian biaya, pembayaran, AlinLabs" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://geomitragateway.com/invoice" />
+    <meta property="og:title" content="AlinLabs Invoice" />
+    <meta property="og:description" content="AlinLabs Invoice - Rincian Biaya dan Pembayaran" />
+    <meta property="og:image" content="/gambar/metatag-invoice.webp" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://geomitragateway.com/invoice" />
+    <meta name="twitter:title" content="AlinLabs Invoice" />
+    <meta name="twitter:description" content="AlinLabs Invoice - Rincian Biaya dan Pembayaran" />
+    <meta name="twitter:image" content="/gambar/metatag-invoice.webp" />
+    
+    <meta name="theme-color" content="#153756" />
+    <link rel="apple-touch-icon" href="/gambar/icon-dashboard-white.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <script>
+      (function() {
+        var theme = localStorage.getItem('theme') || 'dark';
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(error => {
+             console.warn('SW registration failed:', error);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

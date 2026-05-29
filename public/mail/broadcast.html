@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan dari {{company_name}}</title>
+  <!-- EMAILJS CONFIGURATION MAPPING
+    Subject: {{subject}}
+    To Email: {{to_mail}}
+    From Name: {{from_name}}
+    Reply To: {{replay_mail}}
+    BCC: {{bcc_mail}}
+    CC: {{cc_mail}}
+  -->
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 0;
+      color: #1f2937;
+    }
+    .email-wrapper {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+      border: 1px solid #e5e7eb;
+    }
+    .header {
+      background: linear-gradient(135deg, #00172D 0%, #002855 100%);
+      padding: 40px 40px;
+      text-align: center;
+      position: relative;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #35ACDF, #60efff);
+    }
+    .header h1 {
+      color: #ffffff;
+      margin: 0;
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .header p {
+      color: #35ACDF;
+      margin: 10px 0 0 0;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 700;
+    }
+    .content {
+      padding: 48px 40px;
+    }
+    .message {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #374151;
+      margin-bottom: 32px;
+    }
+    .footer {
+      background-color: #f8fafc;
+      border-top: 1px solid #e2e8f0;
+      padding: 32px 40px;
+      text-align: center;
+    }
+    .footer p {
+      margin: 0;
+      font-size: 12px;
+      color: #64748b;
+      line-height: 1.6;
+    }
+    .footer-brand {
+      color: #00172D;
+      font-weight: 800;
+      margin-bottom: 12px;
+      display: block;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div style="display:none;">
+     Config EmailJS:
+     {{subject}}
+     {{to_mail}}
+     {{from_name}}
+     {{replay_mail}}
+     {{bcc_mail}}
+     {{cc_mail}}
+  </div>
+  <div class="email-wrapper">
+    <div class="header">
+      <h1>{{company_name}}</h1>
+      <p>Informasi Partner</p>
+    </div>
+    <div class="content">
+      <div class="message">
+        {{{message_html}}}
+      </div>
+    </div>
+    <div class="footer">
+      <span class="footer-brand">{{company_name}}</span>
+      <p>Pesan ini dikirim kepada partner terdaftar kami.<br>Jika Anda memiliki pertanyaan lebih lanjut, silakan hubungi tim dukungan kami.</p>
+    </div>
+  </div>
+</body>
+</html>

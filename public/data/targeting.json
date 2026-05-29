@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tgt-2026-1",
+    "bulan": 1,
+    "tahun": 2026,
+    "nilai_sasaran": 500000000,
+    "catatan": "Fokus pada peluncuran produk baru di awal tahun."
+  },
+  {
+    "id": "tgt-2026-2",
+    "bulan": 2,
+    "tahun": 2026,
+    "nilai_sasaran": 450000000,
+    "catatan": "Optimasi penjualan produk existing."
+  },
+  {
+    "id": "tgt-2026-3",
+    "bulan": 3,
+    "tahun": 2026,
+    "nilai_sasaran": 600000000,
+    "catatan": "Target kenaikan kuartal 1."
+  }
+]

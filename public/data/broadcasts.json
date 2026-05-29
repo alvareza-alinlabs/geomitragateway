@@ -1,0 +1,17 @@
+[
+  {
+    "id": "CAMP-1718290000000",
+    "nama": "Promo Akhir Bulan (Mei)",
+    "tanggal": "2026-05-20T10:00:00Z",
+    "tipe": "WhatsApp",
+    "template_isi": "Spesial untuk {perusahaan}! Dapatkan diskon hingga 20% untuk transaksi akhir bulan ini.",
+    "status": "Aktif",
+    "klien_sasaran": [
+      {
+        "id_klien": "D001",
+        "status": "Terkirim",
+        "tanggal_kirim": "2026-05-20T10:05:00Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "Geo Mitra Gateway",
+  "short_name": "Geo Mitra Gateway",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#153756",
+  "theme_color": "#153756",
+  "icons": [
+    {
+      "src": "/gambar/icon-dashboard-white.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/gambar/icon-dashboard-white.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

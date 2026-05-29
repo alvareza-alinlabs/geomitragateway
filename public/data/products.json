@@ -1,0 +1,102 @@
+[
+  {
+    "id": "P001",
+    "nama": "SecurX Sentinel Pro S1",
+    "kategori": "Security System",
+    "merek": "SecurX",
+    "target_bulanan": 50,
+    "tercapai": 42,
+    "harga_satuan": 14500000,
+    "harga_normal": 16000000,
+    "harga_promo": 14500000,
+    "deskripsi": "Sistem alarm keamanan cerdas terintegrasi dengan hub nirkabel, sensor gerak presisi tinggi, dan deteksi intrusi waktu nyata dengan cadangan baterai 24 jam.",
+    "video": "https://cdn.pixabay.com/video/2024/11/05/240062_tiny.mp4",
+    "spesifikasi": [
+      "Hub Nirkabel Frekuensi Ganda",
+      "3x Sensor Gerak PIR",
+      "Keamanan Cadangan Baterai 24 Jam",
+      "Integrasi Aplikasi Seluler & Cloud",
+      "Kecepatan Respons < 1 Detik"
+    ],
+    "gambar": [
+      "https://placehold.co/1000x1000/eeeeee/050b14?text=SecurX+Sentinel+Hub",
+      "https://placehold.co/1000x1000/dddddd/050b14?text=Sentinel+PIR+Sensor",
+      "https://placehold.co/1000x1000/cccccc/050b14?text=Sentinel+Key+Fob"
+    ]
+  },
+  {
+    "id": "P002",
+    "nama": "SpectraVision AI Dome 4K",
+    "kategori": "CCTV",
+    "merek": "SpectraVision",
+    "target_bulanan": 120,
+    "tercapai": 98,
+    "harga_satuan": 3750000,
+    "harga_normal": 4250000,
+    "harga_promo": 3750000,
+    "deskripsi": "Kamera CCTV Dome luar ruangan ultra HD 4K dengan pengenalan wajah bertenaga AI, penglihatan malam inframerah berwarna, dan casing tahan air IP67.",
+    "video": "https://cdn.pixabay.com/video/2025/12/07/320453_tiny.mp4",
+    "spesifikasi": [
+      "Resolusi Ultra HD 4K (8MP)",
+      "Pengenalan Wajah & Manusia AI",
+      "Color Night Vision (hingga 30m)",
+      "IP67 Weatherproof Rating",
+      "Dukungan PoE & Penyimpanan MicroSD"
+    ],
+    "gambar": [
+      "https://placehold.co/1000x1000/eeeeee/050b14?text=SpectraVision+Dome",
+      "https://placehold.co/1000x1000/dddddd/050b14?text=SpectraVision+AI+Lens",
+      "https://placehold.co/1000x1000/cccccc/050b14?text=SpectraVision+Mount"
+    ]
+  },
+  {
+    "id": "P003",
+    "nama": "GateKeep BioTouch Pro X",
+    "kategori": "Access Control",
+    "merek": "GateKeep",
+    "target_bulanan": 75,
+    "tercapai": 60,
+    "harga_satuan": 8500000,
+    "harga_normal": 9800000,
+    "harga_promo": 8500000,
+    "deskripsi": "Sistem kontrol akses pintu biometrik sidik jari dan identifikasi wajah super cepat dengan enkripsi RFID tingkat lanjut untuk keamanan gedung korporat.",
+    "video": "https://cdn.pixabay.com/video/2025/08/24/299518_tiny.mp4",
+    "spesifikasi": [
+      "Pemindai Sidik Jari Optik 3D",
+      "Identifikasi Wajah AI 0.2 Detik",
+      "Pembaca Kartu RFID Mifare (13.56MHz)",
+      "Kapasitas 10.000 Pengguna",
+      "Konektivitas TCP/IP & Wi-Fi"
+    ],
+    "gambar": [
+      "https://placehold.co/1000x1000/eeeeee/050b14?text=GateKeep+BioTouch",
+      "https://placehold.co/1000x1000/dddddd/050b14?text=GateKeep+FaceID",
+      "https://placehold.co/1000x1000/cccccc/050b14?text=GateKeep+RFID+Reader"
+    ]
+  },
+  {
+    "id": "P004",
+    "nama": "ConnectLink Pro 24X PoE Switch",
+    "kategori": "IT Peripheral",
+    "merek": "ConnectLink",
+    "target_bulanan": 90,
+    "tercapai": 82,
+    "harga_satuan": 6200000,
+    "harga_normal": 7000000,
+    "harga_promo": 6200000,
+    "deskripsi": "Managed network switch Gigabit 24-Port dengan dukungan PoE+ penuh untuk menyalurkan daya pada CCTV, IP Phone, dan Access Point dengan kinerja tinggi.",
+    "video": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_tiny.mp4",
+    "spesifikasi": [
+      "24x Port RJ45 10/100/1000Mbps",
+      "Dukungan IEEE 802.3at/af PoE+",
+      "Switching Capacity 52 Gbps",
+      "Total Power Budget 370W",
+      "Fungsi L2+ Managed Switch"
+    ],
+    "gambar": [
+      "https://placehold.co/1000x1000/eeeeee/050b14?text=ConnectLink+Switch",
+      "https://placehold.co/1000x1000/dddddd/050b14?text=ConnectLink+Ports",
+      "https://placehold.co/1000x1000/cccccc/050b14?text=ConnectLink+Bracket"
+    ]
+  }
+]

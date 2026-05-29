@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /invoice
+
+# Sitemaps
+Sitemap: https://geomitragateway.com/sitemap.xml

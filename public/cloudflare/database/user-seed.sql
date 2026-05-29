@@ -1,0 +1,4 @@
+INSERT OR REPLACE INTO users (id, nama, email, kata_sandi, hak_akses) VALUES 
+('1', 'Harry Gultom', 'halo.alvareza@gmail.com', 'user123', json('{"ringkasan": "Super Admin", "peta": "Super Admin", "mitra": "Super Admin", "penjualan": "Super Admin", "transaksi": "Super Admin", "produk": "Super Admin", "jadwal": "Super Admin", "akses": "Super Admin"}')),
+('2', 'Siska Saraswati', 'siska@gmgconsole.id', 'adminpassword', json('{"ringkasan": "Admin", "peta": "Admin", "mitra": "Admin", "penjualan": "Admin", "transaksi": "Admin", "produk": "Admin", "jadwal": "Admin", "akses": "None"}')),
+('3', 'Agus Subarjo', 'agus@gmgconsole.id', 'viewerpass', json('{"ringkasan": "Viewer", "peta": "Viewer", "mitra": "None", "penjualan": "None", "transaksi": "None", "produk": "Viewer", "jadwal": "None", "akses": "None"}'));

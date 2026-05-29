@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS users (
+  id VARCHAR(50) PRIMARY KEY,
+  nama VARCHAR(255) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  kata_sandi VARCHAR(255) NOT NULL,
+  hak_akses JSON
+);
